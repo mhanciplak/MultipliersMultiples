@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Others
+  - Number2
+  - Number3
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - on
+  - objects
+  - collider
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: arka
+    uniqueID: 3902514829
+    locked: 0
+  - name: orta
+    uniqueID: 4183334413
+    locked: 0
+  - name: on
+    uniqueID: 991511627
+    locked: 0
+  - name: enon
+    uniqueID: 118280939
+    locked: 0
+  - name: canvas
+    uniqueID: 848336663
+    locked: 0
+  - name: buton
+    uniqueID: 2890818443
+    locked: 0
