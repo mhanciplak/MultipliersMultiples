@@ -10,27 +10,35 @@ public class StoryScript : MonoBehaviour {
 	public string[] story;
 	int i = 0;
 
+    private bool coroutineEnded;
+
 	// Use this for initialization
 	void Start () {
-		storyText.text = story [i];
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+        StartCoroutine(StartStory());
 	}
 
-	public void nextStory(){
-		i++;
-		if (i < story.Length) {
-			storyText.text = story [i];
-		}
-        else
+    IEnumerator StartStory()
+    {
+        while (i < 6)
         {
-            SceneManager.LoadScene("Scene3");
+            storyText.text = story[i++];
+            yield return new WaitForSeconds(1);
         }
-			
-	}
 
+        coroutineEnded = true;
+    }
 
+	public void NextStory() {
+        if (coroutineEnded)
+        {
+            if (i < story.Length)
+            {
+                storyText.text = story[i++];
+            }
+            else
+            {
+                // SceneManager.LoadScene("Scene3");
+            }
+        }
+    }
 }
