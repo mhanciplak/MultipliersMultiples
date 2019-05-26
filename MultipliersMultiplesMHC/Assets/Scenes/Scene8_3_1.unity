@@ -1543,13 +1543,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Elimizde 16 topumuz var.
+  - "\xDCnl\xFC bilardocu Semih Sayg\u0131ner krall\u0131k ziyaretinde bunlar\u0131
+    \xE7ocuklara hediye etti."
+  - "Bu toplar\u0131 4 ki\u015Fiye e\u015Fit olarak payla\u015Ft\u0131rabilir misin?"
   storyText: {fileID: 835142358}
   timeBtwStories: 3
+  WinText: "Tebrikler! Grupland\u0131rmay\u0131 do\u011Fru yapt\u0131n."
+  LoseText: "Tekrar denemek ister misin? 16'y\u0131 4'e b\xF6lerek ba\u015Flayabilirsin."
+  isAutoNextScene: 0
+  NextSceneName: Scene8_3_2
 --- !u!114 &1068442484
 MonoBehaviour:
   m_ObjectHideFlags: 0

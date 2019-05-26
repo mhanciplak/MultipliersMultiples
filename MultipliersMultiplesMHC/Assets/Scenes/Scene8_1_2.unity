@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 322262091}
   - component: {fileID: 322262092}
   m_Layer: 0
-  m_Name: StoryScript
+  m_Name: Code
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,18 +392,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 322262090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 586e925a46c8e1846a4f000125e68a8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 2335636fdc1fda64eb4fe6c1005a1df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "\u015Eimdi 2'ye b\xF6l\xFCnme b\xFCy\xFCs\xFCn\xFC \xF6\u011Frenelim."
+  - "Elindeki say\u0131n\u0131n son rakam\u0131 2'nin kat\u0131ysa o say\u0131y\u0131
+    2'ye b\xF6lebilirsin"
   storyText: {fileID: 1772184720}
-  NextScene: Scene8_2_1
+  timeBtwStories: 4
+  WinText: 
+  LoseText: 
+  isAutoNextScene: 1
+  NextSceneName: Scene8_2_1
 --- !u!1 &535845550
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,6 +771,7 @@ GameObject:
   - component: {fileID: 1075737201}
   - component: {fileID: 1075737200}
   - component: {fileID: 1075737199}
+  - component: {fileID: 1075737202}
   m_Layer: 8
   m_Name: ibuton
   m_TagString: Untagged
@@ -851,6 +853,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1075737202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075737198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 322262092}
+        m_MethodName: Win
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1322211374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,12 +1202,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

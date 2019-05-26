@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -404,8 +404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22, y: 8}
-  m_SizeDelta: {x: 140.5, y: 148.1}
+  m_AnchoredPosition: {x: -110.8, y: 101.63}
+  m_SizeDelta: {x: 248.6, y: 203.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673805533
 MonoBehaviour:
@@ -429,12 +429,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -564,9 +564,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 84, y: -70}
-  m_SizeDelta: {x: 82, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 335, y: -374.2}
+  m_SizeDelta: {x: 155.8, y: 64.3}
+  m_Pivot: {x: 1.3035619, y: -2.662821}
 --- !u!114 &1115920188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,6 +680,8 @@ MonoBehaviour:
   timeBtwStories: 0
   WinText: 
   LoseText: 
+  isAutoNextScene: 0
+  NextSceneName: 
 --- !u!4 &1221486766
 Transform:
   m_ObjectHideFlags: 0

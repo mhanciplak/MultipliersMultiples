@@ -1476,7 +1476,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Grup \xDCye Say\u0131s\u0131"
+  m_Text: "Kalem Say\u0131s\u0131"
 --- !u!222 &854767096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1622,13 +1622,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Elimizde 12 kalem var.
+  - "Bunlar\u0131 4 ki\u015Fiye e\u015Fit olarak payla\u015Ft\u0131rmal\u0131y\u0131z."
   storyText: {fileID: 835142358}
+  timeBtwStories: 4
+  WinText: "Tebrikler! Sonucu do\u011Fru buldun"
+  LoseText: "Tekrar denemek ister misin? 12 kalemi 4'e b\xF6lersen kalem say\u0131s\u0131n\u0131
+    elde edebilirsin"
+  isAutoNextScene: 0
+  NextSceneName: Scene8_2_2
 --- !u!114 &1068442484
 MonoBehaviour:
   m_ObjectHideFlags: 0

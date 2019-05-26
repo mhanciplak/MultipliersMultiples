@@ -982,11 +982,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "\u015Eimdi 3'e b\xF6l\xFCnebilme b\xFCy\xFCs\xFCn\xFC \xF6\u011Frenelim."
+  - "Elimizdeki say\u0131n\u0131n rakamlar\u0131 toplam\u0131 3'\xFCn kat\u0131 ise"
+  - "O say\u0131 \xFC\xE7e b\xF6l\xFCnebilir."
+  - "12 i\xE7in 1+2 = 3 gibi d\xFC\u015F\xFCnebilirsin"
   storyText: {fileID: 1967921604}
   NextScene: Scene8_3_1
 --- !u!1 &1839609440
@@ -1127,12 +1126,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
