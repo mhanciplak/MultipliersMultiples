@@ -77,7 +77,7 @@ public class AllNumbersScript : MonoBehaviour
         if (trueCount == 9)
         {
             KalburImage.SetActive(false);
-            Code.GetComponent<RightsScript>().PlayKalburGif();
+            Code.GetComponent<RightsScript>().ShowSuccessPanel();
         }
     }
 

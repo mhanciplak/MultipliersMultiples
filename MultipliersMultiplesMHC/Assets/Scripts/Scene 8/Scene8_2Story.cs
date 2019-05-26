@@ -8,6 +8,7 @@ public class Scene8_2Story : MonoBehaviour
 {
     public string[] story;
     public Text storyText;
+    public string NextScene;
 
     void Start()
     {
@@ -22,6 +23,6 @@ public class Scene8_2Story : MonoBehaviour
             yield return new WaitForSeconds(3);
         }
 
-        SceneManager.LoadScene("Scene8_2_1");
+        SceneManager.LoadScene(NextScene);
     }
 }

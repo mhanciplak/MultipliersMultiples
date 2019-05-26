@@ -1641,6 +1641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdda8a17cc0be4fa6bcd83565d96db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextScene: Scene8_2_2
   MemberCountInput: {fileID: 311754542}
   TotalCountInput: {fileID: 231659640}
   PencilsAnimator: {fileID: 2006724116}
