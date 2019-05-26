@@ -403,6 +403,7 @@ MonoBehaviour:
   - 
   - 
   storyText: {fileID: 339846105}
+  NextScene: Scene8_2_1
 --- !u!1 &339846103
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -1.5}
+  m_AnchoredPosition: {x: 47, y: -1.5}
   m_SizeDelta: {x: 576.6, y: 63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339846105
@@ -1024,8 +1025,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.1999817, y: -243}
-  m_SizeDelta: {x: -193.3, y: -511.9}
+  m_AnchoredPosition: {x: -18, y: 237}
+  m_SizeDelta: {x: -297.4, y: -518.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671176854
 MonoBehaviour:

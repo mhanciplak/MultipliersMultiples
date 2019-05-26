@@ -7,6 +7,7 @@ public class StoryScriptGeneric : MonoBehaviour
 {
     public string[] story;
     public Text storyText;
+    public int timeBtwStories;
 
     void Start()
     {
@@ -18,7 +19,7 @@ public class StoryScriptGeneric : MonoBehaviour
         foreach (var item in story)
         {
             storyText.text = item;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(timeBtwStories);
         }
     }
 
