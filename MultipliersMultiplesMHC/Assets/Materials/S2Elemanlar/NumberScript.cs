@@ -5,6 +5,7 @@ using UnityEngine;
 public class NumberScript : MonoBehaviour
 {
     private static int firstBoxValue, secondBoxValue, thirdBoxValue;
+    private static string firstBoxContent, secondBoxContent, thirdBoxContent;
     private int value;
     private bool isInCollider, drag;
     private string inBox;
@@ -35,9 +36,15 @@ public class NumberScript : MonoBehaviour
         firstPosition = this.transform.position;
     }
 
+    private void SetContents()
+    {
+        firstBoxContent = secondBoxContent = thirdBoxContent = "";
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        SetContents();
         SetBoxes();
         SetValue();
         SetPosition();
@@ -66,6 +73,13 @@ public class NumberScript : MonoBehaviour
         Debug.Log("Third Box : " + thirdBoxValue);
     }
 
+    private void PrintBoxContents()
+    {
+        Debug.Log("First Box Content : " + firstBoxContent);
+        Debug.Log("Second Box Content : " + secondBoxContent);
+        Debug.Log("Third Box Content : " + thirdBoxContent);
+    }
+
     private void OnMouseDrag()
     {
         if (drag)
@@ -77,15 +91,15 @@ public class NumberScript : MonoBehaviour
 
     private bool isFull()
     {
-        if (this.inBox == "Col1" && firstBoxValue != 0)
+        if (this.inBox == "Col1" && firstBoxContent != "")
         {
             return true;
         }
-        else if (this.inBox == "Col2" && secondBoxValue != 0)
+        else if (this.inBox == "Col2" && secondBoxContent != "")
         {
             return true;
         }
-        else if (this.inBox == "Col3" && thirdBoxValue != 0)
+        else if (this.inBox == "Col3" && thirdBoxContent != "")
         {
             return true;
         }
@@ -95,6 +109,8 @@ public class NumberScript : MonoBehaviour
 
     private void OnMouseUp()
     {
+        ClearOld();
+
         drag = false;
 
         if (!isInCollider || isFull())
@@ -107,8 +123,26 @@ public class NumberScript : MonoBehaviour
         }
 
         PrintBoxValues();
+        PrintBoxContents();
+    }
 
-        
+    private void ClearOld()
+    {
+        if (this.gameObject.name == firstBoxContent)
+        {
+            firstBoxValue = 0;
+            firstBoxContent = "";
+        }
+        else if (this.gameObject.name == secondBoxContent)
+        {
+            secondBoxValue = 0;
+            secondBoxContent = "";
+        }
+        else if (this.gameObject.name == thirdBoxContent)
+        {
+            thirdBoxValue = 0;
+            thirdBoxContent = "";
+        }
     }
 
     private void CheckValues()
@@ -148,14 +182,17 @@ public class NumberScript : MonoBehaviour
     {
         if (inBox == "Col1")
         {
+            firstBoxContent = this.gameObject.name;
             firstBoxValue = this.value;
         }
         else if (inBox == "Col2")
         {
+            secondBoxContent = this.gameObject.name;
             secondBoxValue = this.value;
         }
         else if (inBox == "Col3")
         {
+            thirdBoxContent = this.gameObject.name;
             thirdBoxValue = this.value;
         }
     }
