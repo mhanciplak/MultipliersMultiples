@@ -643,12 +643,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
+  - "6'ya b\xF6l\xFCnebilme b\xFCy\xFCs\xFC \xE7ok kolay!"
+  - "Az \xF6nceki cevapta g\xF6rd\xFC\u011F\xFCn gibi,"
+  - "E\u011Fer bir say\u0131 hem 2'ye hem 3'e b\xF6l\xFCnebiliyorsa,"
+  - "O say\u0131 6'ya b\xF6l\xFCnebilir."
   storyText: {fileID: 1756558669}
-  timeBtwStories: 0
+  timeBtwStories: 4
   WinText: 
   LoseText: 
+<<<<<<< HEAD
   isAutoNextScene: 0
   NextSceneName: 
 --- !u!114 &1371504788
@@ -665,6 +668,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PrevScene: Scene8_5_1
   NextScene: Scene8_6_1
+=======
+  isAutoNextScene: 1
+  NextSceneName: Scene8_6_1
+>>>>>>> 51e1d0496d9d121b2d396805ecf606664f0ac729
 --- !u!1 &1405567523
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,12 +889,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

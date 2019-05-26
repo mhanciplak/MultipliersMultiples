@@ -1286,18 +1286,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Elimizde krall\u0131k katiplerine verilecek 36 kalem var."
+  - "9'arl\u0131 ka\xE7 grup olu\u015Fturabiliriz?"
+  - "9'ar sayarak cevab\u0131 bulabilir misin?"
   storyText: {fileID: 835142358}
   timeBtwStories: 0
+<<<<<<< HEAD
   WinText: "Kazand\u0131n."
   LoseText: Kaybettin.
   isAutoNextScene: 0
   NextSceneName: 
+=======
+  WinText: "Tebrikler! Kalemleri do\u011Fru bir \u015Fekilde gruplad\u0131n"
+  LoseText: "Malesef. L\xFCtfen 9'ar sayarak tekrar dene"
+  isAutoNextScene: 0
+  NextSceneName: Scene8_6_2
+>>>>>>> 51e1d0496d9d121b2d396805ecf606664f0ac729
 --- !u!114 &1068442484
 MonoBehaviour:
   m_ObjectHideFlags: 0

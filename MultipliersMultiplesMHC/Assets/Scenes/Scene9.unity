@@ -954,13 +954,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2335636fdc1fda64eb4fe6c1005a1df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: []
+  story:
+  - "40'\u0131n i\xE7inde ka\xE7 tane 10 oldu\u011Funu bulabilir misin?"
+  - "10'ar sayarak sonuca ula\u015Fabilirsin."
   storyText: {fileID: 1410877725}
-  timeBtwStories: 0
-  WinText: 
-  LoseText: 
+  timeBtwStories: 4
+  WinText: "Tebrikler! Sonucu do\u011Fru buldun."
+  LoseText: "L\xFCtfen 10'ar sayarak tekrar dener misin?"
   isAutoNextScene: 0
-  NextSceneName: 
+  NextSceneName: Scene10
 --- !u!114 &1232507152
 MonoBehaviour:
   m_ObjectHideFlags: 0
