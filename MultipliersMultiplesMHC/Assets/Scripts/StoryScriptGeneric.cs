@@ -30,8 +30,20 @@ public class StoryScriptGeneric : MonoBehaviour
         {
             yield return new WaitForSeconds(3);
 
-            SceneManager.LoadScene(NextSceneName);
+            LoadNextScene();
         }
+    }
+
+    public void LoadNextScene()
+    {
+        StartCoroutine(Load());
+    }
+
+    IEnumerator Load()
+    {
+        yield return new WaitForSeconds(3);
+
+        SceneManager.LoadScene(NextSceneName);
     }
 
     public void SetText(string text)
