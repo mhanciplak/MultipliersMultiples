@@ -1060,8 +1060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75935e685f5e7b549b9647a1188c43ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrevScene: Scene6_9Gecis
-  NextScene: Scene8
+  PrevScene: Scene6_7_2
+  NextScene: Scene8_0_Gecis
 --- !u!114 &410638203
 MonoBehaviour:
   m_ObjectHideFlags: 0

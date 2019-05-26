@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrevScene: Scene5
-  NextScene: Scene6_9Gecis
+  NextScene: Scene6_7_1
 --- !u!1 &269003452
 GameObject:
   m_ObjectHideFlags: 0
