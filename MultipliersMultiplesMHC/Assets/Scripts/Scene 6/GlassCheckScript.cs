@@ -34,7 +34,7 @@ public class GlassCheckScript : MonoBehaviour
             KingAnimator.enabled = true;
             isPlayed = true;
 
-            this.gameObject.GetComponent<StoryScriptGeneric>().SetText("Tebrikler! Bütün bardakları doğru işaretledin.");
+            this.gameObject.GetComponent<StoryScriptGeneric>().Win();
         }
         else if (isPlayed)
         {
@@ -42,7 +42,7 @@ public class GlassCheckScript : MonoBehaviour
         }
         else
         {
-            this.gameObject.GetComponent<StoryScriptGeneric>().SetText("Maalesef işaretlediğin bardaklar doğru değil.");
+            this.gameObject.GetComponent<StoryScriptGeneric>().Lose();
         }
     }
 }

@@ -11,7 +11,7 @@ public class Scene8_5_1Script : MonoBehaviour
 
     void Start()
     {
-        CarAnimator.enabled = false;
+        CarAnimator.Play("CarsIdle");
     }
 
     public void Check()
@@ -21,19 +21,38 @@ public class Scene8_5_1Script : MonoBehaviour
             this.gameObject.GetComponent<StoryScriptGeneric>()
                 .Win();
 
-            CarAnimator.Play("CarAnimation");
+            CarAnimator.SetBool("StartCars2", true);
+
+            StartCoroutine(LoadNext(2));
+        }
+        else if (TotalInput.text == "3")
+        {
+            this.gameObject.GetComponent<StoryScriptGeneric>()
+                .Win();
+
+            CarAnimator.Play("Cars3Animation");
             CarAnimator.enabled = true;
 
-            StartCoroutine(LoadNext());
+            StartCoroutine(LoadNext(3));
         }
         else
             this.gameObject.GetComponent<StoryScriptGeneric>()
                 .Lose();
     }
 
-    IEnumerator LoadNext()
+    private void CarAnimationTransition(int cars)
     {
-        yield return new WaitForSeconds(8);
+        if (cars == 2)
+            CarAnimator.SetBool("TransitionToCars3", true);
+        else if (cars == 3)
+            CarAnimator.SetBool("TransitionToCars2", true);
+    }
+
+    IEnumerator LoadNext(int cars)
+    {
+        yield return new WaitForSeconds(4);
+
+        CarAnimationTransition(cars);
 
         SceneManager.LoadScene("Scene8_5_2");
     }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StoryScriptGeneric : MonoBehaviour
@@ -9,6 +10,8 @@ public class StoryScriptGeneric : MonoBehaviour
     public Text storyText;
     public int timeBtwStories;
     public string WinText, LoseText;
+    public bool isAutoNextScene;
+    public string NextSceneName;
 
     void Start()
     {
@@ -21,6 +24,13 @@ public class StoryScriptGeneric : MonoBehaviour
         {
             storyText.text = item;
             yield return new WaitForSeconds(timeBtwStories);
+        }
+
+        if (isAutoNextScene)
+        {
+            yield return new WaitForSeconds(3);
+
+            SceneManager.LoadScene(NextSceneName);
         }
     }
 
