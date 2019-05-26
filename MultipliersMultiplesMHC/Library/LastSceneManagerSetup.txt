@@ -1,4 +1,20 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/FirstScene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Scene8_2_2.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/FirstScene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Scene6_7_1.unity
+=======
+- path: Assets/Scenes/Scene10.unity
+>>>>>>> 207eb760b27a7ac784a9c507e6ce4691579c36e7
+>>>>>>> 4f6f4ceb83813ca33daa291c6bbe8519adf9d600
+>>>>>>> 51e1d0496d9d121b2d396805ecf606664f0ac729
+>>>>>>> 92c653aaa1708de9a36a1d60c03c7c7335c3e8e8
   isLoaded: 1
   isActive: 1
