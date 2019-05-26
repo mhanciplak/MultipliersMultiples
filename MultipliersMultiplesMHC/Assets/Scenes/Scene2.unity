@@ -315,7 +315,7 @@ MonoBehaviour:
     kapl\u0131yor."
   - "Toplam de\u011Fer olan 6'ya e\u015Fit olacak \u015Fekilde say\u0131lar\u0131
     yerle\u015Ftirmemiz gerekli."
-  - " Haydi onlar\u0131 yeni evlerine yerle\u015Ftirelim!"
+  - "Haydi onlar\u0131 yeni evlerine yerle\u015Ftirelim!"
 --- !u!114 &164543033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -967,7 +967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13182004, y: 0.21900001}
   m_AnchorMax: {x: 1, y: 0.8406978}
-  m_AnchoredPosition: {x: -5.899994, y: 11.369993}
+  m_AnchoredPosition: {x: -5.899994, y: 11.369995}
   m_SizeDelta: {x: -12.8, y: -7.13}
   m_Pivot: {x: 0.40289235, y: -0.6295884}
 --- !u!114 &483501351

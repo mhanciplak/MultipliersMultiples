@@ -250,13 +250,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Asal Kral\u0131m\u0131z toplad\u0131\u011F\u0131m\u0131z vi\u015Fnelerden yap\u0131lm\u0131\u015F
+    \u015Ferbeti tatmak istiyor."
+  - Ama kendisi biraz kaprislidir.
+  - "\u015Eerbeti bir ba\u015Fka i\xE7er."
+  - "Ya tek bardakla kendi de\u011Feri kadar litre i\xE7meli"
+  - "Ya da kendi de\u011Feri kadar 1 litre t\xFCketmeli."
+  - "\u015Eartlar\u0131 sa\u011Flayan bardaklar\u0131 i\u015Faretle."
+  - "Tuzaklar i\xE7in de dikkatli ol :)"
   storyText: {fileID: 1323831119}
+  timeBtwStories: 0
 --- !u!1 &269003452
 GameObject:
   m_ObjectHideFlags: 0

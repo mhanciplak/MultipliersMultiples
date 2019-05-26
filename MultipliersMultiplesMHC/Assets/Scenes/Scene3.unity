@@ -305,7 +305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -23.1, y: 245.1}
+  m_AnchoredPosition: {x: -23.100006, y: 245.1}
   m_SizeDelta: {x: -278.3, y: -523.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60564913
@@ -671,13 +671,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "\xDCst \xFCste dizili bir evler g\xF6r\xFCnmez bir kuleye ait."
+  - "\xD6nce evleri saymal\u0131s\u0131n"
+  - "Sonra t\xFCm evlerde yer alan ortak pencere say\u0131s\u0131n\u0131 tespit et."
+  - "\u0130\u015Flemi yap\u0131p sonuca ula\u015F."
+  - "Evlerin gizemi \xE7\xF6z\xFClmek i\xE7in seni bekliyor!"
   storyText: {fileID: 2119362614}
+  timeBtwStories: 4
 --- !u!1 &571282277
 GameObject:
   m_ObjectHideFlags: 0
