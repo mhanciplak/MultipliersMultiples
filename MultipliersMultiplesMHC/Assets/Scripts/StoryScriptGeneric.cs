@@ -8,6 +8,7 @@ public class StoryScriptGeneric : MonoBehaviour
     public string[] story;
     public Text storyText;
     public int timeBtwStories;
+    public string WinText, LoseText;
 
     void Start()
     {
@@ -26,6 +27,16 @@ public class StoryScriptGeneric : MonoBehaviour
     public void SetText(string text)
     {
         storyText.text = text;
+    }
+
+    public void Win()
+    {
+        storyText.text = WinText;
+    }
+
+    public void Lose()
+    {
+        storyText.text = LoseText;
     }
 
 }

@@ -1132,7 +1132,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1068442484}
+      - m_Target: {fileID: 0}
         m_MethodName: Enter
         m_Mode: 1
         m_Arguments:
@@ -1548,8 +1548,8 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
   storyText: {fileID: 835142358}
+  timeBtwStories: 3
 --- !u!114 &1068442484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,12 +1559,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1068442481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eebdda8a17cc0be4fa6bcd83565d96db, type: 3}
+  m_Script: {fileID: 11500000, guid: 79b4360d29738174ca5065979b52eda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MemberCountInput: {fileID: 311754542}
-  TotalCountInput: {fileID: 231659640}
-  PencilsAnimator: {fileID: 0}
+  FirstInput: {fileID: 311754542}
+  SecondInput: {fileID: 231659640}
 --- !u!1 &1075737198
 GameObject:
   m_ObjectHideFlags: 0
