@@ -8,7 +8,7 @@ public class StoryScript : MonoBehaviour {
 
 	public Text storyText;
 	public string[] story;
-	int i = 0;
+    private int i = 0;
 
     private bool coroutineEnded;
 

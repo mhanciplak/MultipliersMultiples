@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Scene1Code : MonoBehaviour
 {
-   
     private bool drag;
     private bool isInTrigger;
     private bool isFull;
@@ -47,6 +46,7 @@ public class Scene1Code : MonoBehaviour
             this.transform.position = new Vector3(mousePos.x, mousePos.y);
         }
     }
+
     IEnumerator ShowSuccessPanel(GameObject obj)
     {
         yield return new WaitForSeconds(0.5f);
@@ -68,13 +68,9 @@ public class Scene1Code : MonoBehaviour
         }
     }
 
-    private void ReturnToOldPosition()
+    protected void ReturnToOldPosition()
     {
         this.transform.position = firstPosition;
-       // myAnimationComponent = GetComponent<Animation>();
-        //this.gameObject.GetComponent<Animator>().enabled = true;
-        //myAnimationComponent.Play("AppleAnimaton");
-
     }
 
     void OnMouseUp()
