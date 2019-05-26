@@ -40,6 +40,11 @@ public class AllNumbersScript : MonoBehaviour
         RedSprite = GameObject.Find("Red").GetComponent<SpriteRenderer>().sprite;
     }
 
+    public void SetZero()
+    {
+        trueCount = 0;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
