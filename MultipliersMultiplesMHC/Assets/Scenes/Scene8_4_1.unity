@@ -1796,13 +1796,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Krall\u0131\u011F\u0131m\u0131za ithal etti\u011Fimiz yeni bisikletleri 5'erli
+    olarak da\u011F\u0131taca\u011F\u0131z."
+  - 5'er sayarak bisikletleri gruplayabilir misin?
   storyText: {fileID: 835142358}
   timeBtwStories: 3
+  WinText: "Tebrikler! Say\u0131lar\u0131 do\u011Fru gruplad\u0131n."
+  LoseText: "5'erli olarak gruplarsan do\u011Fru sonuca ula\u015Fabilirsin."
+  isAutoNextScene: 0
+  NextSceneName: Scene8_4_2
 --- !u!114 &1068442484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2192,8 +2194,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -392452467
-  m_SortingLayer: 1
+  m_SortingLayerID: 991511627
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fd2f77ca7ccb3bc42a40dc7e86d448c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2214,7 +2216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564310350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.03, y: -2.18, z: 0}
+  m_LocalPosition: {x: 3.08, y: -0.48, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

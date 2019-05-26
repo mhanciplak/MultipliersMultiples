@@ -1614,14 +1614,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
-  - 
-  - 
+  - "Kraliyet ailesine da\u011F\u0131tmak \xFCzre spor arabalar\u0131 teslim ald\u0131k."
+  - "Onlar\u0131 e\u015Fit olarak gruplara ay\u0131rmal\u0131y\u0131z."
+  - "Toplam 6 arabam\u0131z var."
+  - "Yeni \xF6\u011Frendi\u011Fin bilgileri hat\u0131rlaman i\u015Fine yarayabilir"
   storyText: {fileID: 835142358}
-  timeBtwStories: 0
-  WinText: "Kazand\u0131n"
-  LoseText: Kaybettin
+  timeBtwStories: 4
+  WinText: "Tebrikler! Gruplamay\u0131 do\u011Fru yapt\u0131n. Peki ya bir alternatif
+    daha var desem?"
+  LoseText: "L\xFCtfen tekrar dene. Arabalar\u0131 birbirine e\u015Fit gruplara ay\u0131rmal\u0131s\u0131n"
+  isAutoNextScene: 0
+  NextSceneName: Scene8_5_2
 --- !u!114 &1068442484
 MonoBehaviour:
   m_ObjectHideFlags: 0

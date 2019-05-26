@@ -171,12 +171,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -869,10 +869,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   story:
-  - 
-  - 
+  - "Haydi gel! 5'e b\xF6l\xFCnme b\xFCy\xFCs\xFCn\xFC \xF6\u011Frenece\u011Fiz."
+  - "E\u011Fer say\u0131n\u0131n son rakam\u0131 5'in kat\u0131ysa,"
+  - "O say\u0131 5'e b\xF6l\xFCnebilir"
   storyText: {fileID: 31776934}
   timeBtwStories: 0
+  WinText: 
+  LoseText: 
+  isAutoNextScene: 1
+  NextSceneName: Scene8_5_1
 --- !u!4 &1434668778
 Transform:
   m_ObjectHideFlags: 0

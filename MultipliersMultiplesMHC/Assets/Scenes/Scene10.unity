@@ -2283,11 +2283,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2335636fdc1fda64eb4fe6c1005a1df3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: []
+  story:
+  - "45'i \xE7arpanlar\u0131na ay\u0131rabilir misin?"
+  - "5'e b\xF6lerek ba\u015Flarsan \xE7arpan a\u011Fac\u0131n\u0131n t\xFCm meyvelerini
+    bulabilirsin."
+  - "Her ok ayr\u0131m\u0131nda elindeki say\u0131y\u0131 asal \xE7arpanlar\u0131na
+    b\xF6lmelisin."
   storyText: {fileID: 1298134950}
   timeBtwStories: 0
-  WinText: "kazand\u0131n."
-  LoseText: kaybettin.
+  WinText: "Tebrikler! \xC7arpan a\u011Fac\u0131n\u0131 ba\u015Far\u0131yla olu\u015Fturdun."
+  LoseText: "L\xFCtfen asal \xE7arpanlara b\xF6lerek tekrar dene."
   isAutoNextScene: 0
   NextSceneName: 
 --- !u!4 &1224075686
