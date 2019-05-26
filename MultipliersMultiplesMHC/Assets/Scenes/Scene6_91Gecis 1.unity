@@ -404,8 +404,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:MultipliersMultiplesMHC/Assets/Scenes/Scene6_91Gecis 1.unity
   m_AnchoredPosition: {x: -110.8, y: 101.63}
   m_SizeDelta: {x: 248.6, y: 203.25}
+=======
+  m_AnchoredPosition: {x: -123.4, y: 80.9}
+  m_SizeDelta: {x: 228.8, y: 188.7}
+>>>>>>> 572bce57582f0f4b079f68f620e7ec886667b5ae:MultipliersMultiplesMHC/Assets/Scenes/Scene6_8Gecis 1.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673805533
 MonoBehaviour:
@@ -429,7 +434,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD:MultipliersMultiplesMHC/Assets/Scenes/Scene6_91Gecis 1.unity
     m_FontSize: 25
+=======
+    m_FontSize: 18
+>>>>>>> 572bce57582f0f4b079f68f620e7ec886667b5ae:MultipliersMultiplesMHC/Assets/Scenes/Scene6_8Gecis 1.unity
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -564,9 +573,15 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:MultipliersMultiplesMHC/Assets/Scenes/Scene6_91Gecis 1.unity
   m_AnchoredPosition: {x: 335, y: -374.2}
   m_SizeDelta: {x: 155.8, y: 64.3}
   m_Pivot: {x: 1.3035619, y: -2.662821}
+=======
+  m_AnchoredPosition: {x: 139.1, y: -162.4}
+  m_SizeDelta: {x: 120.2, y: 46.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+>>>>>>> 572bce57582f0f4b079f68f620e7ec886667b5ae:MultipliersMultiplesMHC/Assets/Scenes/Scene6_8Gecis 1.unity
 --- !u!114 &1115920188
 MonoBehaviour:
   m_ObjectHideFlags: 0
