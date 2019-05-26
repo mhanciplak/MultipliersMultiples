@@ -62,3 +62,6 @@ TagManager:
   - name: buton
     uniqueID: 2890818443
     locked: 0
+  - name: Canvas Front
+    uniqueID: 164865469
+    locked: 0
