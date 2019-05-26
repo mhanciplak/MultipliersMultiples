@@ -22,7 +22,7 @@ public class StoryScript : MonoBehaviour {
         while (i < 6)
         {
             storyText.text = story[i++];
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(4);
         }
 
         coroutineEnded = true;

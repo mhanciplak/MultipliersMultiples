@@ -189,7 +189,7 @@ Transform:
   m_LocalScale: {x: 0.114581995, y: 0.100080006, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &84424901
 GameObject:
@@ -343,7 +343,7 @@ Transform:
   m_LocalScale: {x: 0.16687755, y: 0.238128, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &101822532
 GameObject:
@@ -505,7 +505,7 @@ Transform:
   m_LocalScale: {x: 0.605, y: 0.53, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &105462307
 Animator:
@@ -555,17 +555,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: {fileID: 1698609348}
   story:
-  - first text
-  - second text
-  - third text
-  - fourth text
-  - fifth text
-  - sixth text
-  - seventh text
-  - eight text
-  - ninth text
-  - tenth text
-  - eleventh text
+  - "A\u015F\xE7\u0131m\u0131z \xE7orba yaparken malzemelerini t\xFCketti."
+  - "Son teknoloji s\xFCr\xFCc\xFCs\xFCz arac\u0131m\u0131za binen 8 ile maceraya
+    \xE7\u0131kma vakti."
+  - "8 kendi de\u011Feri kadar yol alacak, ve toplam kilometreyi yazarak onun harekete
+    ge\xE7mesini sa\u011Flayaca\u011F\u0131z."
+  - "Yol \xFCzerindeki tarla ve bah\xE7elerden gereken yiyecekleri alaca\u011F\u0131z."
+  - "B\xF6ylece kraliyet mutfa\u011F\u0131n\u0131 malzemesiz b\u0131rakmayaca\u011F\u0131z."
+  - "Patates tarlalar\u0131na gitmek i\xE7in kutucu\u011Fa 8 yazmal\u0131s\u0131n."
+  - "Elma tarlalar\u0131 16.km'de. 16 konumunu yazarak oraya ilerleyebilirsin."
+  - "Eyvah! Km sayac\u0131m\u0131z bozuldu. Son gitti\u011Fimiz mesafeye 8 eklemelisin.
+    B\xF6ylece Salata tarlas\u0131na ula\u015Fabilirsin."
+  - "Vi\u015Fne tarlas\u0131na ula\u015Fmak i\xE7in her zamanki de\u011Ferimizi son
+    girdi\u011Fim km de\u011Ferine eklemelisin."
+  - "Domates tarlas\u0131 normal mesafenin iki kat\u0131 uzakta, 8'i ikiyle \xE7arp
+    ve son girdi\u011Fin mesafeye ekle."
+  - "Tebrikler, kraliyet mutfa\u011F\u0131 art\u0131k g\u0131das\u0131z kalmayacak!"
 --- !u!114 &105462310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,7 +1235,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647208049
 GameObject:
@@ -1450,7 +1455,7 @@ Transform:
   m_LocalScale: {x: 1.053, y: 1.324, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &891808554
 GameObject:
@@ -1604,86 +1609,7 @@ Transform:
   m_LocalScale: {x: 0.08508022, y: 0.12880258, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1211493662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1211493664}
-  - component: {fileID: 1211493663}
-  m_Layer: 0
-  m_Name: ipucu
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1211493663
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211493662}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -111632883
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 74fa02bcd848f9f45976c5f79ae40f61, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.38, y: 1.66}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1211493664
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211493662}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.89, y: 4.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1330916186
 GameObject:
@@ -2102,7 +2028,7 @@ Transform:
   m_LocalScale: {x: 0.68, y: 0.637, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1698609346
 GameObject:
@@ -2260,7 +2186,7 @@ Transform:
   m_LocalScale: {x: 0.11080745, y: 0.075084195, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1837893164
 GameObject:
@@ -2358,7 +2284,7 @@ RectTransform:
   - {fileID: 891808555}
   - {fileID: 558923718}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2650,5 +2576,5 @@ Transform:
   m_LocalScale: {x: 0.084448, y: 0.106624, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

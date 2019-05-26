@@ -2147,13 +2147,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: {fileID: 737959919}
   story:
-  - first
-  - second
-  - third
-  - fourth
-  - fifth
+  - "Krall\u0131\u011F\u0131m\u0131z\u0131n yemek ihtiyac\u0131n\u0131 kar\u015F\u0131lamak
+    i\xE7in bug\xFCn \xE7orba pi\u015Firece\u011Fiz."
+  - "Elimizdeki malzemelerin hepsini kullanmam\u0131z gerekli"
+  - "B\xF6ylece sa\u011Fl\u0131kl\u0131 ve doyurucu bir \xE7orba yapaca\u011F\u0131z."
+  - "Malzeme miktarlar\u0131 a\u015Fa\u011F\u0131da yaz\u0131yor."
+  - "Kalan miktarlar\u0131 sen girebilir misin?"
   - sixth
-  timeBetweenStory: 0.8
+  timeBetweenStory: 4
 --- !u!1 &1568248611
 GameObject:
   m_ObjectHideFlags: 0
